@@ -98,7 +98,7 @@ button[disabled] {
   float: right;
 }
 
-#password {
+#securepassword {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;

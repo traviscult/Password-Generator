@@ -19,14 +19,14 @@
         <h2>Generate a Password</h2>
       </div>
       <div class="card-body">
-        <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+        <textarea readonly id="securepassword" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
       </div>
       <!-- Criteria for password generator-->
       <form id="passwordGeneratorForm" class="form">
-        <label for="charNumber">Password Character Count</label>
+        <label for="characterNumber">Password Character Count</label>
         <div class="character-amount-container">
-          <input type="range" min="1" max="50" value="10" id="charRange">
-          <input class="number-input" type="number" min="1" max="50" value="10" id="charNumber">
+          <input type="range" min="8" max="128" value="10" id="characterRange">
+          <input class="number-input" type="number" min="1" max="128" value="10" id="characterNumber">
         </div>
 
         <label for="includeUppercase">Include Uppercase Characters</label>
